@@ -5,3 +5,38 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #80ED99;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    border-radius: 20px 20px 0 0;
+    padding: 30px;
+    background: #033043;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1px solid #111;
+    gap: 10px;
+    padding-bottom: 70px;
+    -webkit-box-reflect: below 1px
+      linear-gradient(transparent, transparent, #0005);
+  }
+
+  .container h2 {
+    color: #666;
+    font-weight: 500;
+  }
+
+  .container .inputArea {
+    position: relative;
+    width: 100%;
+  }
+  
